@@ -26,7 +26,7 @@ public class Empregado{
         }
     }
 
-    public getIdade() {
+    public int getIdade() {
         return idade;
     }
 
@@ -65,6 +65,6 @@ public class Empregado{
     public double getComissao() {
         return comissao;
     }
-    
+
 
 }

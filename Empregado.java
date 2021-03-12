@@ -16,13 +16,13 @@ public class Empregado{
         public double calcularSalario(){
         switch (tipo){
             case 1:
-            return salario;
+                return salario;
             case 2:
-            return salario + salario*comissao;
+                return salario + salario*comissao;
             case 3:
-            return salario + bonus;
+                return salario + bonus;
             default:
-            return 0;
+                return 0;
         }
     }
 
